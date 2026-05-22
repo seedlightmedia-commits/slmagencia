@@ -4,7 +4,19 @@ import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 
-const videoCategories = [
+type VideoItem = {
+  id: string
+  title: string
+  isShort?: boolean
+}
+
+type VideoCategory = {
+  id: string
+  title: string
+  videos: VideoItem[]
+}
+
+const videoCategories: VideoCategory[] = [
   {
     id: "video-comerciales",
     title: "Videos Comerciales",

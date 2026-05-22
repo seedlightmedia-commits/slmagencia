@@ -98,13 +98,13 @@
     return (
       <section ref={sectionRef} id="servicios" className="py-20 md:py-32 bg-black/80 relative overflow-hidden">
         
-        <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none opacity-[0.04]">
-          <div className="relative w-[120%] h-[120%]">
+        <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none opacity-8">
+          <div className="relative w-[100%] h-[100%] md:w-[100%] md:h-[100%]">
             <Image 
-              src="/LogoWatermark.png" 
+              src="/Logo1.png" 
               alt="SLM Watermark" 
               fill
-              className="object-contain filter grayscale brightness-150"
+              className="object-contain filter brightness-125"
             />
           </div>
         </div>

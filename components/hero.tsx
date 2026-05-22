@@ -45,13 +45,10 @@ export function Hero() {
         </div>
       ))}
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-        
-        {/* Logo eliminado para centrar el texto */}
 
         {/* Tagline - Tamaño agrandado a 6xl y margen superior eliminado */}
         <h1
