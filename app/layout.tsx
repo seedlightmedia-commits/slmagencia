@@ -43,8 +43,8 @@ export const metadata: Metadata = {
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/icon-light-32x32.png',
+        type: 'image/png',
       },
     ],
     // Ajustado el formato de Apple con tamaño óptimo de alta resolución
