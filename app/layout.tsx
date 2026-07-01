@@ -15,12 +15,25 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
+  // --- CONFIGURACIÓN TÉCNICA AGREGADA PARA POSICIONAR EN BOGOTÁ Y COLOMBIA ---
+  metadataBase: new URL("https://www.slmagencia.com"),
+  alternates: {
+    canonical: "/",
+  },
+  // ------------------------------------------------------------------------
+
   title: 'Seed Light Media | Producción Audiovisual',
   description: 'Agencia de marketing audiovisual que apoya a empresas y emprendedores a lanzar su marca, posicionarla y sostenerla en el mercado con éxito.',
   generator: 'v0.app',  
-  keywords: ['producción audiovisual', 'video corporativo', 'fotografía', 'streaming', 'comerciales', 'Colombia'],
+  keywords: ['producción audiovisual', 'video corporativo', 'fotografía', 'streaming', 'comerciales', 'Colombia', 'Bogotá', 'marketing digital', 'contenido para redes sociales', 'postproducción' ],
   icons: {
     icon: [
+      // Agregado el tamaño 48x48 requerido por Google para indexar el logo correctamente
+      {
+        url: '/icon-48x48.png',
+        type: 'image/png',
+        sizes: '48x48',
+      },
       {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
@@ -34,7 +47,23 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    // Ajustado el formato de Apple con tamaño óptimo de alta resolución
+    apple: [
+      {
+        url: '/icon-apple-180x180.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+  },
+  // --- CONFIGURACIÓN METADATOS GEO-LOCALIZADOS ---
+  openGraph: {
+    title: 'Seed Light Media | Producción Audiovisual',
+    description: 'Agencia de marketing audiovisual que apoya a empresas y emprendedores a lanzar su marca, posicionarla y sostenerla en el mercado con éxito.',
+    url: 'https://www.slmagencia.com',
+    siteName: 'Seed Light Media',
+    locale: 'es_CO', // Indica a los buscadores prioridad absoluta para Colombia
+    type: 'website',
   },
 }
 
@@ -43,9 +72,61 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  // Objeto JSON-LD totalmente corregido en su sintaxis interna
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Seed Light Media",
+    "image": "https://slmagencia.com",
+    "@id": "https://slmagencia.com",
+    "url": "https://www.slmagencia.com",
+    "telephone": "+573192146693", 
+    "priceRange": "$$$",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Colombia"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bogotá, Colombia", // Requerido por Google. Puedes cambiarlo por tu calle real si deseas.
+      "addressLocality": "Bogotá",
+      "addressRegion": "Cundinamarca",
+      "postalCode": "110111",
+      "addressCountry": "CO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 4.60971,
+      "longitude": -74.08175
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    "sameAs": [
+      "https://www.instagram.com/slmagencia/",
+      "https://www.facebook.com/LightMediaSeed", // Agregada la coma corregida
+      "https://www.youtube.com/@seedlightmedia"   // Agregada la coma corregida
+    ]
+  }
+
   return (
     <html lang="es" className="dark">
       <body className={`${montserrat.variable} ${bebasNeue.variable} font-sans antialiased bg-background text-foreground`}>
+        {/* Inyección segura del Script de SEO Local y Nacional sin alterar el DOM visual */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
         <Analytics />
       </body>
