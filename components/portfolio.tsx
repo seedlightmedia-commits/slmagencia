@@ -73,7 +73,7 @@ const photoCategories = [
   },
   {
     title: "Fotografia de Bodas",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fotoboda-o5W4vKFSQhIrsQmMNSu9tECKeo1c8o.jpg",
+    image: "Bodas.jpg",
     gallery: ["Fotoboda.jpg", "Fotografia12.jpg", "Fotografia11.jpg"],
   },
 ]
