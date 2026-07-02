@@ -33,7 +33,7 @@
     {
       title: "Postproducción",
       link: "/nuestro-trabajo#video-musicales",
-      images: ["/Posproduccion.jpg", "/Posproduccion2.jpg", "/Posproduccion3.jpg"],
+      images: ["/Posproduccion.jpg", "/Posproduccion2.jpg", "/Posproduccion3.png"],
     },
   ]
 
