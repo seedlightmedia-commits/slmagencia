@@ -31,7 +31,7 @@ const designCategories: DesignCategory[] = [
   {
     title: "Diseño de Páginas Web",
     description: "Interfaces y sitios web a medida",
-    image: "/Web1.jpg",
+    image: "/Web1.png",
     gallery: ["Web1.jpg", "Web2.jpg", "Web3.jpg", "Web4.jpg"],
   },
 ]
