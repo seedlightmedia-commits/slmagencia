@@ -69,12 +69,12 @@ const photoCategories = [
   {
     title: "Fotografia de Producto",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FotoProducto.jpg-cJ73PlyV6KDburaOZ3k7WVSIq5xBBJ.jpg",
-    gallery: ["Producto1.jpg", "Producto2.jpg", "Producto3.jpg","Producto4.jpg","Producto5.jpg", "Producto6.jpg", "Producto7.jpg", "Producto8.jpg"], // ⚠️ revisa mayúsculas reales
+    gallery: ["Producto1.jpg", "Producto2.jpg", "Producto3.jpg","Producto4.jpg","Producto5.jpg", "Producto6.jpg", "Producto7.jpg", "Producto8.jpg", "Producto9.jpg"], // ⚠️ revisa mayúsculas reales
   },
   {
     title: "Fotografia de Bodas",
     image: "Bodas.jpg",
-    gallery: ["Fotoboda.jpg", "Fotoboda2.jpg", "Fotoboda3.jpg", "Fotoboda4.jpg", "Fotoboda5.jpg", "Fotoboda6.jpg", "Fotoboda7.jpg", "Fotoboda8.jpg"],
+    gallery: ["Fotoboda.jpg", "Fotoboda2.jpg", "Fotoboda3.jpg", "Fotoboda4.jpg", "Fotoboda5.jpg", "Fotoboda6.jpg", "Fotoboda7.jpg", "Fotoboda8.jpg","Fotoboda9.jpg"],
   },
 ]
 
