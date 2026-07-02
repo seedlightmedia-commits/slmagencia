@@ -16,7 +16,7 @@ const bebasNeue = Bebas_Neue({
 
 export const metadata: Metadata = {
   // --- CONFIGURACIÓN TÉCNICA AGREGADA PARA POSICIONAR EN BOGOTÁ Y COLOMBIA ---
-  metadataBase: new URL("https://www.slmagencia.com"),
+  metadataBase: new URL("https://slmagencia.com"),
   alternates: {
     canonical: "/",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
   title: 'Seed Light Media | Producción Audiovisual',
   description: 'Agencia de marketing audiovisual que apoya a empresas y emprendedores a lanzar su marca, posicionarla y sostenerla en el mercado con éxito.',
-  generator: 'v0.app',  
+  // SE ELIMINÓ LA LÍNEA DEL GENERADOR DE V0 PARA QUITAR SU LOGOTIPO DE LOS BUSCADORES
   keywords: ['producción audiovisual', 'video corporativo', 'fotografía', 'streaming', 'comerciales', 'Colombia', 'Bogotá', 'marketing digital', 'contenido para redes sociales', 'postproducción' ],
   icons: {
     icon: [
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Seed Light Media | Producción Audiovisual',
     description: 'Agencia de marketing audiovisual que apoya a empresas y emprendedores a lanzar su marca, posicionarla y sostenerla en el mercado con éxito.',
-    url: 'https://www.slmagencia.com',
+    url: 'https://slmagencia.com',
     siteName: 'Seed Light Media',
     locale: 'es_CO', // Indica a los buscadores prioridad absoluta para Colombia
     type: 'website',
@@ -79,7 +79,7 @@ export default function RootLayout({
     "name": "Seed Light Media",
     "image": "https://slmagencia.com",
     "@id": "https://slmagencia.com",
-    "url": "https://www.slmagencia.com",
+    "url": "https://slmagencia.com",
     "telephone": "+573192146693", 
     "priceRange": "$$$",
     "areaServed": {
@@ -113,9 +113,9 @@ export default function RootLayout({
       "closes": "18:00"
     },
     "sameAs": [
-      "https://www.instagram.com/slmagencia/",
-      "https://www.facebook.com/LightMediaSeed", // Agregada la coma corregida
-      "https://www.youtube.com/@seedlightmedia"   // Agregada la coma corregida
+      "https://instagram.com",
+      "https://facebook.com", // Agregada la coma corregida
+      "https://youtube.com"   // Agregada la coma corregida
     ]
   }
 
