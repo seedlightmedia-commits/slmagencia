@@ -65,16 +65,16 @@ const photoCategories = [
   {
     title: "Fotografia Corporativa",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FotoCorporativa.jpg-bII9NuXMLVZIEr2gyI0tYNO34p5RLk.jpg",
-    gallery: ["CorporativoFoto.jpg", "CorporativoFoto2.jpg", "CorporativoFoto3.jpg", "Somos11.jpg", "Somos7.jpg", "Somos14.jpg", "Somos15.jpg", "Somos16.jpg", "Somos17.jpg"],  },
+    gallery: ["CorporativoFoto.jpg", "CorporativoFoto2.jpg", "CorporativoFoto3.jpg", "CorporativoFoto4.jpg", "CorporativoFoto5.jpg", "CorporativoFoto6.jpg", "CorporativoFoto7.jpg", "CorporativoFoto8.jpg", "CorporativoFoto9.jpg"],  },
   {
     title: "Fotografia de Producto",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FotoProducto.jpg-cJ73PlyV6KDburaOZ3k7WVSIq5xBBJ.jpg",
-    gallery: ["Producto1.jpg", "Producto2.jpg", "Producto3.jpg"], // ⚠️ revisa mayúsculas reales
+    gallery: ["Producto1.jpg", "Producto2.jpg", "Producto3.jpg","Producto4.jpg","Producto5.jpg", "Producto6.jpg", "Producto7.jpg", "Producto8.jpg"], // ⚠️ revisa mayúsculas reales
   },
   {
     title: "Fotografia de Bodas",
     image: "Bodas.jpg",
-    gallery: ["Fotoboda.jpg", "Fotografia12.jpg", "Fotografia11.jpg"],
+    gallery: ["Fotoboda.jpg", "Fotoboda2.jpg", "Fotoboda3.jpg", "Fotoboda4.jpg", "Fotoboda5.jpg", "Fotoboda6.jpg", "Fotoboda7.jpg", "Fotoboda8.jpg"],
   },
 ]
 
@@ -161,13 +161,19 @@ export function Portfolio() {
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center gap-4 mb-12">
-        <button onClick={() => setActiveTab('video')} className={`px-8 py-3 rounded-full font-bold ${activeTab === 'video' ? 'bg-primary text-white' : 'bg-secondary text-white/70'}`}>
+      <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <button onClick={() => setActiveTab('video')} className={`px-8 py-3 rounded-full font-bold transition ${activeTab === 'video' ? 'bg-primary text-white' : 'bg-secondary text-white/70 hover:bg-primary/60 hover:text-white'}`}>
           Video
         </button>
-        <button onClick={() => setActiveTab('foto')} className={`px-8 py-3 rounded-full font-bold ${activeTab === 'foto' ? 'bg-primary text-white' : 'bg-secondary text-white/70'}`}>
+        <button onClick={() => setActiveTab('foto')} className={`px-8 py-3 rounded-full font-bold transition ${activeTab === 'foto' ? 'bg-primary text-white' : 'bg-secondary text-white/70 hover:bg-primary/60 hover:text-white'}`}>
           Fotografia
         </button>
+        <Link
+          href="/diseno"
+          className="px-8 py-3 rounded-full font-bold bg-secondary text-white/70 hover:bg-primary/60 hover:text-white transition"
+        >
+          Diseño
+        </Link>
       </div>
 
         {/* VIDEO */}
