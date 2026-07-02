@@ -23,7 +23,7 @@
     {
       title: "Contenido para Redes Sociales",
       link: "/nuestro-trabajo#video-redes",
-      images: ["/Red1.jpg", "/Red2.jpg", "/Red3.jpg"],
+      images: ["/Red1.jpg", "/Red2.jpg", "/Red4.jpg"],
     },
     {
       title: "Corporativo",
