@@ -64,17 +64,17 @@ const videoCategories: VideoCategory[] = [
 const photoCategories = [
   {
     title: "Fotografia Corporativa",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FotoCorporativa.jpg-bII9NuXMLVZIEr2gyI0tYNO34p5RLk.jpg",
-    gallery: ["CorporativoFoto.jpg", "CorporativoFoto2.jpg", "CorporativoFoto3.jpg", "CorporativoFoto4.jpg", "CorporativoFoto5.jpg", "CorporativoFoto6.jpg", "CorporativoFoto7.jpg", "CorporativoFoto8.jpg", "CorporativoFoto9.jpg"],  },
+    image: "FotoCorporativa.webp",
+    gallery: ["CorporativoFoto.webp", "CorporativoFoto2.webp", "CorporativoFoto3.webp", "CorporativoFoto4.webp", "CorporativoFoto5.webp", "CorporativoFoto6.webp", "CorporativoFoto7.webp", "CorporativoFoto8.webp", "CorporativoFoto9.webp"],  },
   {
     title: "Fotografia de Producto",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/FotoProducto.jpg-cJ73PlyV6KDburaOZ3k7WVSIq5xBBJ.jpg",
-    gallery: ["Producto1.jpg", "Producto2.jpg", "Producto3.jpg","Producto4.jpg","Producto5.jpg", "Producto6.jpg", "Producto7.jpg", "Producto8.jpg", "Producto9.jpg"], // ⚠️ revisa mayúsculas reales
+    image: "FotoProducto.jpg.webp",
+    gallery: ["Producto1.webp", "Producto2.webp", "Producto3.webp","Producto4.webp","Producto5.webp", "Producto6.webp", "Producto7.webp", "Producto8.webp", "Producto9.webp"], // ⚠️ revisa mayúsculas reales
   },
   {
     title: "Fotografia de Bodas",
-    image: "Bodas.jpg",
-    gallery: ["Fotoboda.jpg", "Fotoboda2.jpg", "Fotoboda3.jpg", "Fotoboda4.jpg", "Fotoboda5.jpg", "Fotoboda6.jpg", "Fotoboda7.jpg", "Fotoboda8.jpg","Fotoboda9.jpg"],
+    image: "Bodas.webp",
+    gallery: ["Fotoboda.webp", "Fotoboda2.webp", "Fotoboda3.webp", "Fotoboda4.webp", "Fotoboda5.webp", "Fotoboda6.webp", "Fotoboda7.webp", "Fotoboda8.webp","Fotoboda9.webp"],
   },
 ]
 
@@ -143,7 +143,7 @@ export function Portfolio() {
     {/* ✅ Background BIEN ubicado */}
     <div className="absolute inset-0 opacity-5 pointer-events-none">
       <Image
-        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Comercial2-HFqZlQYmls1dKIer8rZU1BxWXUuZQl.jpg"
+        src="Comercial2.webp"
         alt="background"
         fill
         className="object-cover"

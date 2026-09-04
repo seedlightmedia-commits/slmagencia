@@ -22,7 +22,23 @@ const clients = [
   },
   {
     name: "Cencosud",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cencosud-dyaouxVwE7fBKM5UOnJoCtRlLqxza6.png",
+    logo: "Cencosud.webp",
+  },
+   {
+    name: "Lacobell",
+    logo: "Lacobell.webp",
+  },
+   {
+    name: "Unilever",
+    logo: "unilever.png",
+  },
+  {
+    name: "Ingeurbe",
+    logo: "Logo-ingeurbe.png",
+  },
+  {
+    name: "Credicorp",
+    logo: "credicorp.svg",
   },
 ]
 
