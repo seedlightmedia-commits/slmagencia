@@ -19,20 +19,20 @@ const designCategories: DesignCategory[] = [
   {
     title: "Publicidad",
     description: "Piezas gráficas para campañas digitales e impresas",
-    image: "/Publicidad1.jpg",
-    gallery: ["Publicidad1.jpg", "Publicidad2.jpg", "Publicidad3.jpg", "Publicidad4.jpg"],
+    image: "/Publicidad1.webp",
+    gallery: ["Publicidad1.webp", "Publicidad2.webp", "Publicidad3.webp", "Publicidad4.webp"],
   },
   {
     title: "Panfletos y Volantes",
     description: "Material impreso para promociones y eventos",
-    image: "/Panfleto1.jpg",
-    gallery: ["Panfleto1.jpg", "Panfleto2.jpg", "Panfleto3.jpg"],
+    image: "/Panfleto1.webp",
+    gallery: ["Panfleto1.webp", "Panfleto2.webp", "Panfleto3.webp"],
   },
   {
     title: "Diseño de Páginas Web",
     description: "Interfaces y sitios web a medida",
-    image: "/Web1.jpg",
-    gallery: ["Web1.jpg", "Web2.jpg", "Web3.jpg", "Web4.jpg"],
+    image: "/Web1.webp",
+    gallery: ["Web1.webp", "Web2.webp", "Web3.webp", "Web4.webp"],
   },
 ]
 

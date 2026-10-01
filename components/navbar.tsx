@@ -79,7 +79,7 @@ export function Navbar() {
               href="/contacto"
               className="bg-primary text-white px-6 py-3 rounded-full text-sm uppercase tracking-wider font-bold hover:bg-primary/90 transition-all animate-pulse-glow"
             >
-              Contactanos
+              Contáctanos
             </Link>
           </div>
 
@@ -133,7 +133,7 @@ export function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="block mt-4 bg-primary text-white px-6 py-3 rounded-full text-sm uppercase tracking-wider font-bold text-center"
             >
-              Contactanos
+              Contáctanos
             </Link>
           </div>
         )}

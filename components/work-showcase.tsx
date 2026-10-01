@@ -8,27 +8,27 @@ const workItems = [
   {
     title: "Fotografía",
     link: "https://www.instagram.com/reel/DIMVUzUJvUJ/",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fotoboda-o5W4vKFSQhIrsQmMNSu9tECKeo1c8o.jpg",
+    image: "Red1.webp",
   },
   {
     title: "Streaming",
     link: "https://www.instagram.com/reel/DSDJPyukail/",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Otras4-jFdEof649CMHnUZIabxxPtOe86wSZI.jpg",
+    image: "Streaming3.webp",
   },
   {
     title: "Video Clips",
     link: "https://www.instagram.com/reel/C_0kTIsO2Sg/",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Comercial2-HFqZlQYmls1dKIer8rZU1BxWXUuZQl.jpg",
+    image: "Comercial2.webp",
   },
   {
     title: "Comerciales",
     link: "https://www.instagram.com/reel/C1FHks5OBiu/",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Comercial-mc5pGzneIiJUqgX4UA9Yhzv9Y0mMAi.jpg",
+    image: "Comercial.webp",
   },
   {
     title: "Cubrimientos",
     link: "https://www.instagram.com/reel/CzJ0IhxuTAd/",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Comercial4-KsygOAeh0ChBtLulddeUfOW4jLcD8d.jpg",
+    image: "Comercial4.webp",
   },
 ]
 

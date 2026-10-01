@@ -5,12 +5,12 @@ import Image from "next/image"
 import Link from "next/link"
 
 const backgroundImages = [
-  "Fondo3.jpg",
-  "Portada12.jpg",
-  "Portada2.jpg",
-  "Fondo2.jpg",
-  "Portada5.jpg",
-  "Portada14.jpg",
+  "Fondo3.webp",
+  "Portada12.webp",
+  "Portada2.webp",
+  "Fondo2.webp",
+  "Portada5.webp",
+  "Portada14.webp",
 ]
 
 export function Hero() {
