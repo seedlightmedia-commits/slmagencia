@@ -214,7 +214,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Teléfono</p>
-                    <p className="font-medium">+57 319 214 6693</p>
+                    <p className="font-medium">+57 300 122 4813</p>
                   </div>
                 </a>
 
